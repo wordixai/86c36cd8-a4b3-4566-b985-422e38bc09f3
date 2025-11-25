@@ -9,10 +9,31 @@ The @apply directive should not be used with the group utility class.
 
 @layer base {
   :root {
-   
+
   }
 
   .dark {
 
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+@layer utilities {
+  .font-handwriting {
+    font-family: 'Caveat', cursive;
+  }
+
+  @keyframes eject {
+    0% {
+      transform: translateX(-50%) translateY(0);
+    }
+    100% {
+      transform: translateX(-50%) translateY(-40%);
+    }
+  }
+
+  .animate-eject {
+    animation: eject 1s ease-out forwards;
   }
 }
