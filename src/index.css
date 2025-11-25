@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+The @apply directive should not be used with the group utility class.
+*/
+
+@layer base {
+  :root {
+   
+  }
+
+  .dark {
+
+  }
+}
