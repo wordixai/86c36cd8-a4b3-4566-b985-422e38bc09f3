@@ -8,5 +8,28 @@
   },
   "firstStartTime": "2025-11-25T08:13:25.677Z",
   "userID": "45096476ee981a919de241016430e08d327f91fa32a4212c4eb61d6ca69827e5",
-  "sonnet45MigrationComplete": true
+  "sonnet45MigrationComplete": true,
+  "projects": {
+    "/app": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "I don't have any file modification data to analyze. The lists of files modified by the user and other users appear to be empty.",
+        "",
+        "To provide the five most frequently modified core application logic files, I would need:",
+        "- A list of files with their modification counts from the user",
+        "- A list of files with their modification counts from other users",
+        "",
+        "Could you please provide the actual file modification data?"
+      ],
+      "exampleFilesGeneratedAt": 1764058409280
+    }
+  }
 }
